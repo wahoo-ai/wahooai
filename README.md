@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://img.wahooai.com/logo.png" alt="WahooAI Logo" width="120" />
+  <img src="https://www.wahooai.com/wahooai.webp" alt="WahooAI Logo" width="120" />
   <h1>WahooAI</h1>
   <p><strong>Gateway to the Future of AI Models | 通往未来 AI 模型的网关</strong></p>
   <p>
