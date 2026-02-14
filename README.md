@@ -19,7 +19,7 @@
 ### 🚀 Key Features
 
 - **Standard OpenAI Interface**: Fully compatible with the OpenAI API format. Use existing libraries and tools drop-in replacement.
-- **Multi-Model Support**: Access top-tier models like GPT-4, Claude 3.5, Gemini 1.5, and more through a single endpoint.
+- **Multi-Model Support**: Access top-tier models like GPT-5, Claude 4, Gemini 3, and more through a single endpoint.
 - **Pay-As-You-Go**: No subscriptions. Pay only for the tokens you use.
 - **High Availability**: Enterprise-grade reliability and uptime.
 - **Global Access**: Optimized routing for low latency worldwide.
@@ -41,7 +41,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="claude-3-5-sonnet-20240620",  # Switch models easily!
+    model="claude-sonnet-4-5-20250929",  # Switch models easily!
     messages=[
         {"role": "user", "content": "Hello, WahooAI!"}
     ]
@@ -62,7 +62,7 @@ print(response.choices[0].message.content)
 ### 🚀 核心功能
 
 - **标准 OpenAI 接口**: 完全兼容 OpenAI API 格式。现有库和工具可直接通过替换 URL 使用。
-- **支持多模型**: 通过单一端点访问 GPT-4, Claude 3.5, Gemini 1.5 等顶级模型。
+- **支持多模型**: 通过单一端点访问 GPT-5, Claude 4, Gemini 3 等顶级模型。
 - **按需付费**: 无需订阅。仅为您使用的 Token 付费。
 - **高可用性**: 企业级的可靠性和正常运行时间。
 - **全球访问**: 优化的路由，确保全球低延迟。
@@ -84,7 +84,7 @@ client = OpenAI(
 )
 
 response = client.chat.completions.create(
-    model="claude-3-5-sonnet-20240620",  # 轻松切换模型！
+    model="claude-sonnet-4-5-20250929",  # 轻松切换模型！
     messages=[
         {"role": "user", "content": "你好，WahooAI！"}
     ]
